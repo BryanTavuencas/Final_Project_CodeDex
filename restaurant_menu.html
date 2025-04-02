@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazilian Restaurant</title>
+    <style>
+
+
+
+  #header-img{
+    width: 75%;
+}
+
+
+    #Header{
+        background-color: blue;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    li {
+               display: inline;
+             }
+    </style>
+
+
+
+</head>
+<body>
+    <header id="Header">
+        <figure>
+            <img id="header-img" src="https://th.bing.com/th/id/OIP.4d_5clYw5Iz4nTODpHVtlAHaEK?rs=1&pid=ImgDetMain">
+        </figure>
+        <h1>Brazilian House</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order-form">Order Form</a></li>
+
+            </ul>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+                <article>
+
+                    <figure>
+                        <img src="">
+                    </figure>
+
+                    <h3>Feijoada</h3>
+                    <p>Item Description <i>Price</i></p>
+
+                </article>
+
+                <article>
+                
+                    <figure>
+                        <img src="">
+                    </figure>
+                    <h3>Parmegiana</h3>
+                    <p>Item Description <i>Price</i></p>
+
+                </article>
+
+                <article>
+
+                    <figure>
+                        <img src="">
+                    </figure>
+                    <h3>Virado a Paulista</h3>
+                    <p>Item Description <i>Price</i></p>
+                    
+                </article>
+
+
+
+        </section>
+
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form>
+               <label> Feijoada:  <input type="number" min="0" style="width: 50px;"></label><br><br>
+               
+               
+               
+               <div id="Feijoada AD">
+                <input type="radio" id="FeijoadaC" name="Addons">
+                <label for="FeijoadaC">Complete Feijoada</label><br>
+                <input type="radio" id="FeijoadaS" name="Addons">
+                <label for="FeijoadaS">Simply Feijoada</label>
+               </div>
+               <br>
+                <label>Parmegiana: <input type="number" min="0" style="width: 50px;"></label><br><br>
+                <div id="Parmegina AD">
+                    <input type="radio" id="ParmegianaM" name="Addons">
+                    <label for="ParmegianaM">Meat Parmegiana</label><br>
+                    <input type="radio" id="ParmegianaC" name="Addons">
+                    <label for="ParmegianaC">Chicken Parmegiana</label>
+                   </div>
+           
+                <br>
+                <label>Virado a Paulista: <input type="number" min="0" style="width: 50px;"></label><br><br>
+
+                 <div id="Viado a Paulista AD">
+                    <h4>Addons</h4>
+                    <input type="checkbox" id="Bacon" name="Addons">
+                    <label for="Bacon">Bacon</label><br>
+                    <input type="checkbox" id="Egg" name="Addons">
+                    <label for="Egg">2 Eggs</label>
+                   </div>
+                    
+                </br>
+
+                <input type="textarea" placeholder="extra request"> 
+                <br><br>
+                <input type="submit" value="Go to Checkout">
+
+            </form>
+
+            <footer>
+
+                <p>Made With Love by @BryanJiyu</p>
+
+            </footer>
+        </section>
