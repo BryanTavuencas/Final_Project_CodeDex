@@ -6,10 +6,14 @@
     <title>Brazilian Restaurant</title>
     <style>
 
+* {
+    margin: 0;
+    padding: 0;
+  }
 
 
   #header-img{
-    width: 75%;
+    width: 100%;
 }
 
 
@@ -18,21 +22,64 @@
         margin: 0;
         padding: 0;
         width: 100%;
+        text-align: center;
+        color: #F5F4E5;
+    }
+
+    #Body{
+        background-color: #F0F465;
+    
+    }
+
+    #menu{
+    text-align: center;
+    }
+
+    #Feijoada{
+
+    }
+
+    #Parmegiana{
+    
     }
 
     li {
                display: inline;
              }
+    a{
+        color:#F5F4E5;
+        margin: 1%;
+    }
+
+    hr{
+            width: 95%;
+            margin: auto;
+            color: white;
+        }
+
+        figure img {
+    width: 100%;  /* Ajusta a largura para preencher o espaço do pai (figure) */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 300px; /* Limita o tamanho máximo da imagem */
+    margin: 10px 0; /* Adiciona espaçamento entre a imagem e o texto */
+}
+
+article {
+    margin-bottom: 30px; /* Espaçamento entre os artigos */
+    text-align: center; /* Alinha as imagens e textos ao centro */
+}
+
+
     </style>
 
 
 
 </head>
-<body>
+<body id="Body">
     <header id="Header">
-        <figure>
-            <img id="header-img" src="https://th.bing.com/th/id/OIP.4d_5clYw5Iz4nTODpHVtlAHaEK?rs=1&pid=ImgDetMain">
-        </figure>
+        
+            <img id="header-img" src="https://th.bing.com/th/id/OIP.6UbWdx1M8M9DDq_dHtKb4QHaEK?w=2000&h=1125&rs=1&pid=ImgDetMain">
+       
         <h1>Brazilian House</h1>
         <nav>
             <ul>
@@ -50,35 +97,39 @@
             <h2>Menu</h2>
                 <article>
 
-                    <figure>
-                        <img src="">
-                    </figure>
-
                     <h3>Feijoada</h3>
-                    <p>Item Description <i>Price</i></p>
+                    <figure id="Feijoada">
+                        <img src="https://th.bing.com/th/id/OIP.y9Ezi6qfhdLtmx18oejcEQHaE8?rs=1&pid=ImgDetMain">
+                    </figure>
+                    <br>
+                    <p>Feijoada is a traditional Brazilian stew made with black beans and different types of pork and beef.
+
+                        Complete Feijoada comes with more sides like rice and farofa, while Simply Feijoada is just the beans and meat. <i>$15</i></p>
 
                 </article>
-
+<br><hr>
                 <article>
                 
-                    <figure>
-                        <img src="">
+                    <figure id="Parmegiana">
+                        <img src="https://img.saborosos.com.br/imagens/file-de-frango-a-parmegiana.jpg">
                     </figure>
                     <h3>Parmegiana</h3>
-                    <p>Item Description <i>Price</i></p>
+                    <p>Parmegiana is a popular Brazilian dish made with breaded and fried meat, topped with tomato sauce and melted cheese.
+
+                        Meat Parmegiana is made with beef, while Chicken Parmegiana is made with chicken. <i>$18</i></p>
 
                 </article>
-
+<br><hr>
                 <article>
 
-                    <figure>
+                    <figure id="ViradoPaulista">
                         <img src="">
                     </figure>
                     <h3>Virado a Paulista</h3>
                     <p>Item Description <i>Price</i></p>
                     
                 </article>
-
+<hr><br>
 
 
         </section>
